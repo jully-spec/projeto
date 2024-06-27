@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+header{
+
+    background-color: hsl(0, 0%, 0%);
+    height: 20vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+    h1{
+        font-family: 'Times New Roman', Times, serif;
+        color: rgb(48, 47, 47);
+    }
+
+       nav a {
+
+        margin: 20px;
+        text-decoration: none;
+        color: rgb(59, 59, 59);
+    
+       }
+       
+       nav a:hover{
+            color: rgb(24, 24, 24);
+
+       }
+
+       section{
+         text-align: center ;
+       }
+
+       
+       .quemsomos-texto{
+            border: 1px solid color black;
+            margin: 5% 20% 5%  20%;
+            padding: 1% 5% 1% 5%;
+            text-align: left;
+            border-radius: 10px;
+            background-color: rgb(48, 48, 48);
+
+
+        }
+
+    
+         
+       .texto-principal {
+           margin: 20px;
+           font-weight: bold;
+       }
+       div{
+          border: 1px solid rgb(59, 59, 59);
+          width: 600px;
+          display: inline-block;
+          height: 500px;
+
+       }
+
+       div:hover{
+              background-color: rgb(20, 20, 20);
+              transform: scale(1.1);
+              transition: 500ms linear;
+       }
+
+       img {
+
+           width: 350px;
+       }
+
+       button{
+          margin-top: 15px;
+          width: 100px;
+          height: 30px;
+          background-color: rgb(78, 78, 75);
+          border: none;
+          border-radius: 30px;
+          font-weight: bold;
+       }
+
+       .segunda-section {
+           background-color: black;
+       }
+
+       footer {
+           height: 100;
+           text-align: center;
+           background-color: rgb(43, 43, 43);
+       }
+       .ecopy {
+          padding-top: 40px;
+       }
+       
+
+    
+
+
+ 
